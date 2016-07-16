@@ -55,6 +55,28 @@ p {
 	margin: 8%;
 }
 
+.flippedqueen {
+    height: 200px;
+	width: 150px;
+	border: solid 1px black;
+	border-radius: 10px;
+    background-image: url('https://s-media-cache-ak0.pinimg.com/236x/ff/c5/12/ffc512655cde11259e6470fba2fc959a.jpg');
+    background-size: 150px 200px;
+    float: left;
+	margin: 8%;
+}
+
+.flippedking {
+    height: 200px;
+	width: 150px;
+	border: solid 1px black;
+	border-radius: 10px;
+    background-image: url('https://s-media-cache-ak0.pinimg.com/236x/59/22/ff/5922ff0bd2931065580a9f28d16384a1.jpg');
+    background-size: 150px 200px;
+    float: left;
+	margin: 8%;
+}
+
 footer {
 	text-align: center;
 	background-color: #808080;
