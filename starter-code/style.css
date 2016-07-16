@@ -7,15 +7,13 @@
         font-size: 0;
       }
 
-header {
-	text-align: center;
-}
-
 h1 {
 		color: rgb(2,132,130);
+		text-align: center;
 	}	
 h2 {
 		color: #ffd700;
+		text-align: center;
 	}
 	
 nav {
@@ -29,6 +27,7 @@ nav a {
 	padding:35px;
 	display:block;
 	float: left;
+	text-decoration: none;
 }
 
 nav a:hover {
@@ -39,26 +38,21 @@ p {
 	text-align: center;
 }
 
-#game {
-	display: inline-block;
-	width: 50%;
-	height: 50%;
-}
 .board {
 	display: inline-block;
 	height: 80%;
 	width: 50%;
-	margin: 8%;
-	float: left;
 }
 
 
 .card {
 	height: 200px;
 	width: 150px;
-	border: solid 1px;
+	border: solid 1px black;
 	border-radius: 10px;
 	background-color: yellow;
+	float: left;
+	margin: 8%;
 }
 
 footer {
